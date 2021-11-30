@@ -29,7 +29,7 @@ public class DaoFactory {
             System.out.println("Impossible de charger le pilote");
         }
 
-        FileInputStream in         = new FileInputStream("src/main/java/org/example/tp1sale/dao/config.properties");
+        FileInputStream in         = new FileInputStream("src/main/resources/config.properties");
         Properties      properties = new Properties();
 
         properties.load(in);
